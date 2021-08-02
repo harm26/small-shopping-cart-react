@@ -1,0 +1,84 @@
+body {
+  background-color: beige;
+}
+
+.principal-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.card-body {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 2px;
+  border: 1px black solid;
+  border-radius: 10px;
+}
+
+.box {
+  border: 2px black solid;
+  border-radius: 10px;
+
+  margin: 2px;
+  padding: 20px;
+  text-align: center;
+}
+
+.basquet {
+  border: 1px black solid;
+  border-radius: 10px;
+}
+
+.elem {
+  display: grid;
+  grid-template-columns: 90%;
+}
+.total {
+  text-align: center;
+}
+
+.is_empty {
+  text-align: center;
+}
+
+.block-1 {
+  display: flex;
+  border: 1px lightgray solid;
+  border-radius: 10px;
+  margin: 4px;
+  padding: 5px;
+  justify-content: center;
+}
+
+.block-2 {
+  margin-left: 10px;
+}
+
+.block-3 {
+  margin-left: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.btn-plus {
+  margin-left: 2px;
+}
+.btn-remove {
+  margin-left: 30px;
+}
+.name {
+  border-radius: 10px;
+  background-color: #4682b4;
+  color: white;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 5px;
+}
+
+.title-1 {
+  text-align: center;
+}
+
+.title-2 {
+  text-align: center;
+}
